@@ -1,18 +1,19 @@
 module dss_row(n=3, column=0) {
   $key_shape_type = "sculpted_square";
-  $bottom_key_width = 18.4;
-  $bottom_key_height = 18.4;
-  $width_difference = 5.7;
-  $height_difference = 5.7;
+  $bottom_key_width = 18.24;
+  $bottom_key_height = 18.24;
+  $width_difference = 6;
+  $height_difference = 6;
   $dish_type = "spherical";
-  $dish_depth = 0.85;
+  $dish_depth = 1.2;
   $dish_skew_x = 0;
   $dish_skew_y = 0;
   $top_skew = 0;
   $height_slices = 10;
+  $enable_side_sculpting = true;
   // might wanna change this if you don't minkowski
   // do you even minkowski bro
-  $corner_radius = 0.25;
+  $corner_radius = 1;
 
   // this is _incredibly_ intensive
   /* $rounded_key = true; */
